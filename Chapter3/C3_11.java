@@ -1,5 +1,5 @@
 
-//¾ËÆÄºª ´ë¼Ò¹®ÀÚ·Î ÀÌ·ç¾îÁø ¹®ÀÚ¿­ ÀÔ·Â¹Ş°í ÇÑÁÙ¿¡ 10±ÛÀÚ¾¿ ²÷¾î¼­ Ãâ·Â
+//ì•ŒíŒŒë²³ ëŒ€ì†Œë¬¸ìë¡œ ì´ë£¨ì–´ì§„ ë¬¸ìì—´ ì…ë ¥ë°›ê³  í•œì¤„ì— 10ê¸€ìì”© ëŠì–´ì„œ ì¶œë ¥
 
 import java.util.Scanner;
 
@@ -9,11 +9,11 @@ public class C3_11 {
 		String str = new Scanner(System.in).next();
 
 		for (int i = 0; i < str.length(); i++) {
-			System.out.print(str.charAt(i));	//¹®ÀÚ ÇÏ³ª¾¿ Ãâ·ÂÇÒ¶§¸¶´Ù
-			cnt++;								//cnt Áõ°¡
-			if (cnt == 10) {			//10°³ Ãâ·ÂµÇ¸é
-				System.out.println();	//ÁÙ¹Ù²Ù°í
-				cnt = 0;				//cnt ÃÊ±âÈ­
+			System.out.print(str.charAt(i));	//ë¬¸ì í•˜ë‚˜ì”© ì¶œë ¥í• ë•Œë§ˆë‹¤
+			cnt++;					//cnt ì¦ê°€
+			if (cnt == 10) {		//10ê°œ ì¶œë ¥ë˜ë©´
+				System.out.println();	//ì¤„ë°”ê¾¸ê³ 
+				cnt = 0;		//cnt ì´ˆê¸°í™”
 			}
 		}
 	}
